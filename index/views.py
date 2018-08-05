@@ -48,10 +48,15 @@ def activate(request, uidb64, token):
         user.save()
         login(request, user)
         return redirect('profile/')
-        #return HttpResponse('Thank you for your email confirmation. Now you can login your account.')
+        # return HttpResponse('Thank you for your email confirmation. Now you can login your account.')
     else:
         return HttpResponse('Activation link is invalid!')
 
 
-def profile(request):
-    return render('profile.html')
+def studentprofile(request):
+    # Fill in the profile of the student
+    return render(request, 'profile.html')
+
+
+def home(request):
+    return render(request, 'home.html')
