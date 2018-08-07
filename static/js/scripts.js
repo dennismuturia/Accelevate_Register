@@ -1,5 +1,1 @@
-/*
-function Clickme() {
-    alert("Hello");
-}
-*/
+/*In here we will create a parallax effect for the site*/
