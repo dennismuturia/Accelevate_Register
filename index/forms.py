@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 
 
 class SignupForm(UserCreationForm):
+    profile_photo = forms.ImageField()
     email = forms.EmailField(max_length=200,  help_text='Required')
     first_name = forms.CharField(max_length=50, required='false', help_text='First Name')
     last_name = forms.CharField(max_length=50, required='false',help_text='Last Name')

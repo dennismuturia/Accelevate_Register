@@ -20,12 +20,13 @@ h1{
 }
 .myHeader{
     background-image: url("../images/slogan.jpg");
-    height: 100vh;
+    position: relative;
+    opacity: 1.9;
+    width: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
-    width: 100%;!important;
 }
 @media only screen and (max-device-width: 1366px) {
     .myHeader {
@@ -35,3 +36,17 @@ h1{
 .header_contents{
     margin: 25%;
 }
+/*****************************LoginPage********************************/
+.loginPage{
+    background-image: url("../images/background.jpg");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.theCard{
+    margin: 10%;
+}
+/*****************************Signup***************************************/
+
